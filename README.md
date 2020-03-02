@@ -7,7 +7,7 @@ _Leaderboard_ aggregates data by GitHub user on:
 - PR reviews
 - PR review comments
 
-on [anz-bank/go-course](https://github.com/anz-bank/go-course).
+on [devopsacademyau/academy](https://github.com/devopsacademyau/academy).
 
 ## Development
 
@@ -110,7 +110,7 @@ Builds can bet triggered locally with:
 ## Deployment
 
 The build output of frontend has been manually deployed to Google Cloud storage
-bucket `leader.go-course.org`.
+bucket `leader.academy.org`.
 The backend is deployed as Google Cloud function with HTTP trigger:
 
     gcloud functions deploy LeaderboardHTTP \

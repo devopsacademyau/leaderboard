@@ -18,8 +18,8 @@ func Config() (Configuration, error) {
 	labelGlob := `lab*`
 	labelRe := `^lab\d`
 	botName := "golangcibot"
-	repoOwner := "anz-bank"
-	repoName := "go-course"
+	repoOwner := "devopsacademyau"
+	repoName := "academy"
 	queryPattern := buildQueryPattern(repoOwner, repoName)
 	client := &http.Client{}
 	token := os.Getenv("GITHUB_TOKEN")

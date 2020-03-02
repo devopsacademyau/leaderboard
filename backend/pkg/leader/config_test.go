@@ -18,9 +18,9 @@ func TestConfig(t *testing.T) {
 
 	createdAfter, _ := time.Parse(time.RFC3339, "2019-05-15T00:00:00Z")
 	repo := Repository{
-		Owner: "anz-bank",
-		Name:  "go-course",
-		URL:   "https://github.com/anz-bank/go-course",
+		Owner: "devopsacademyau",
+		Name:  "academy",
+		URL:   "https://github.com/devopsacademyau/academy",
 	}
 
 	expected := Configuration{

@@ -16,7 +16,7 @@ import (
 	"github.com/juliaogris/leaderboard/backend/pkg/leader"
 )
 
-const bucketName = "leader.go-course.org"
+const bucketName = "leader.academy.org"
 const objectName = "data.json"
 
 // LeaderboardHTTP writes GitHub repo stats as JSON data for leaderboard charts

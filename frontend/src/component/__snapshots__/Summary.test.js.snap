@@ -11,7 +11,7 @@ Array [
        
       <a
         className="link black-80 hover-blue underline-hover b"
-        href="https://github.com/anz-bank/go-course/pulls?q=is%3Apr+is%3Amerged+created%3A>2019-05-15"
+        href="https://github.com/devopsacademyau/academy/pulls?q=is%3Apr+is%3Amerged+created%3A>2019-05-15"
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -26,7 +26,7 @@ Array [
      
     <a
       className="link black-80 hover-blue underline-hover b"
-      href="https://github.com/anz-bank/go-course/pulls?q=is%3Apr+is%3Aopen+created%3A>2019-05-15"
+      href="https://github.com/devopsacademyau/academy/pulls?q=is%3Apr+is%3Aopen+created%3A>2019-05-15"
       rel="noopener noreferrer"
       target="_blank"
     >

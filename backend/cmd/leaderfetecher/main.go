@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/juliaogris/leaderboard/backend/pkg/leader"
+	"github.com/devopsacademyau/leaderboard/backend/pkg/leader"
 )
 
 func main() {

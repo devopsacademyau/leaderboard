@@ -133,7 +133,7 @@ func TestSkipBeforeCreatedAfter(t *testing.T) {
 const prResultFixture = `{
   "data": {
     "repository": {
-      "url": "https://github.com/anz-bank/go-course",
+      "url": "https://github.com/devopsacademyau/academy",
       "pullRequests": {
         "totalCount": 189,
         "pageInfo": {
@@ -143,7 +143,7 @@ const prResultFixture = `{
         "nodes": [
           {
             "number": 130,
-            "url": "https://github.com/anz-bank/go-course/pull/130",
+            "url": "https://github.com/devopsacademyau/academy/pull/130",
             "state": "MERGED",
             "title": "Lab 1 - Fibonacci and Negafibonacci",
             "createdAt": "2019-02-24T11:24:48Z",
@@ -176,7 +176,7 @@ const prResultFixture = `{
           },
           {
             "number": 132,
-            "url": "https://github.com/anz-bank/go-course/pull/132",
+            "url": "https://github.com/devopsacademyau/academy/pull/132",
             "state": "OPEN",
             "title": "Dummy - with label",
             "createdAt": "2019-05-24T11:24:48Z",
@@ -192,7 +192,7 @@ const prResultFixture = `{
           },
           {
             "number": 133,
-            "url": "https://github.com/anz-bank/go-course/pull/133",
+            "url": "https://github.com/devopsacademyau/academy/pull/133",
             "state": "OPEN",
             "title": "Dummy2 - with label",
             "createdAt": "2019-05-24T11:24:48Z",
@@ -208,7 +208,7 @@ const prResultFixture = `{
           },
           {
             "number": 134,
-            "url": "https://github.com/anz-bank/go-course/pull/134",
+            "url": "https://github.com/devopsacademyau/academy/pull/134",
             "state": "OPEN",
             "title": "Dummy2 - lab 2",
             "createdAt": "2019-05-24T11:24:48Z",
@@ -232,7 +232,7 @@ const prResultFixture = `{
 const prResultFixtureForFilters = `{
   "data": {
     "repository": {
-      "url": "https://github.com/anz-bank/go-course",
+      "url": "https://github.com/devopsacademyau/academy",
       "pullRequests": {
         "totalCount": 189,
         "pageInfo": {
@@ -242,7 +242,7 @@ const prResultFixtureForFilters = `{
         "nodes": [
           {
             "number": 131,
-            "url": "https://github.com/anz-bank/go-course/pull/131",
+            "url": "https://github.com/devopsacademyau/academy/pull/131",
             "state": "MERGED",
             "title": "Dummy - no label",
             "createdAt": "2019-05-24T11:24:48Z",
@@ -262,7 +262,7 @@ const prResultFixtureForFilters = `{
 const prResultFixtureWithNextPage = `{
   "data": {
     "repository": {
-      "url": "https://github.com/anz-bank/go-course",
+      "url": "https://github.com/devopsacademyau/academy",
       "pullRequests": {
         "totalCount": 189,
         "pageInfo": {

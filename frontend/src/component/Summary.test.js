@@ -39,9 +39,9 @@ test("matches snapshot charts", () => {
     botName: "golangcibot",
     createdAfter: "2019-05-15T00:00:00Z",
     repository: {
-      name: "go-course",
-      owner: "anz-bank",
-      url: "https://github.com/anz-bank/go-course"
+      name: "academy",
+      owner: "devopsacademyau",
+      url: "https://github.com/devopsacademyau/academy"
     }
   }
   const bot = {
@@ -70,9 +70,9 @@ test("matches snapshot charts with unknown title", () => {
     botName: "golangcibot",
     createdAfter: "2019-05-15T00:00:00Z",
     repository: {
-      name: "go-course",
-      owner: "anz-bank",
-      url: "https://github.com/anz-bank/go-course"
+      name: "academy",
+      owner: "devopsacademyau",
+      url: "https://github.com/devopsacademyau/academy"
     }
   }
 

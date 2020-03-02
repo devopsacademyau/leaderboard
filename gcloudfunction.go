@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/juliaogris/leaderboard/backend/pkg/leader"
+	"github.com/devopsacademyau/leaderboard/backend/pkg/leader"
 )
 
 const bucketName = "leader.academy.org"

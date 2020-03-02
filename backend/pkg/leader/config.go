@@ -14,9 +14,9 @@ func Config() (Configuration, error) {
 	//nolint:godox
 	// TODO(juliaogris): Read from config file and/or command line
 	initialCursor := ""
-	createdAfter, _ := time.Parse(time.RFC3339, "2019-05-15T00:00:00Z")
-	labelGlob := `lab*`
-	labelRe := `^lab\d`
+	createdAfter, _ := time.Parse(time.RFC3339, "2020-02-01T00:00:00Z")
+	labelGlob := `class*`
+	labelRe := `^class\d`
 	botName := "golangcibot"
 	repoOwner := "devopsacademyau"
 	repoName := "academy"

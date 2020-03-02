@@ -1,4 +1,4 @@
-module github.com/juliaogris/leaderboard
+module github.com/devopsacademyau/leaderboard
 
 go 1.12
 

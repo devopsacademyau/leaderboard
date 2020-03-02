@@ -33,7 +33,7 @@ const Footer = () => (
     </span>{" "}
     by{" "}
     <a
-      href="https://github.com/juliaogris/leaderboard/graphs/contributors"
+      href="https://github.com/devopsacademyau/leaderboard/graphs/contributors"
       className="link black-80 underline-hover hover-blue"
       rel="noopener noreferrer"
       target="_blank"

@@ -35,7 +35,7 @@ exports[`Footer matches snapshot 1`] = `
    
   <a
     className="link black-80 underline-hover hover-blue"
-    href="https://github.com/juliaogris/leaderboard/graphs/contributors"
+    href="https://github.com/devopsacademyau/leaderboard/graphs/contributors"
     rel="noopener noreferrer"
     target="_blank"
   >

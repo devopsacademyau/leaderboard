@@ -59,12 +59,7 @@ const ReviewSummary = ({ review, comment, bot }) =>
     <P>
       <b>{review.points.length} authors</b> created
       <b>{` ${review.totalCount} ${review.title}`}</b> and
-      <b>{` ${comment.totalCount} ${comment.title}`}</b>.{" "}
-      <Link url={bot.url} ttc>
-        <img src={bot.avatarUrl} alt="avatar" className="h1 w1 ph1" />
-        {bot.login}
-      </Link>{" "}
-      made {bot.comments} comments.
+      <b>{` ${comment.totalCount} ${comment.title}`}</b>.
     </P>
   )
 
